@@ -24,8 +24,10 @@ const Header = () => {
             <a href="#" className="text-primary-foreground/90 hover:text-primary-foreground transition-colors">
               Hỗ trợ
             </a>
-            <Button variant="secondary" size="sm">
-              Đăng nhập
+            <Button variant="secondary" size="sm" asChild>
+              <a href="https://google.com" target="_blank" rel="noopener noreferrer">
+                Đăng nhập
+              </a>
             </Button>
           </nav>
         </div>

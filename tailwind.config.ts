@@ -47,6 +47,12 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        zalopay: {
+          blue: "hsl(var(--zalopay-blue))",
+          "light-blue": "hsl(var(--zalopay-light-blue))",
+          "dark-blue": "hsl(var(--zalopay-dark-blue))",
+          green: "hsl(var(--zalopay-green))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +63,16 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        "gradient-primary": "var(--gradient-primary)",
+        "gradient-card": "var(--gradient-card)",
+        "gradient-qr": "var(--gradient-qr)",
+      },
+      boxShadow: {
+        "card": "var(--shadow-card)",
+        "qr": "var(--shadow-qr)",
+        "elevated": "var(--shadow-elevated)",
       },
       borderRadius: {
         lg: "var(--radius)",
